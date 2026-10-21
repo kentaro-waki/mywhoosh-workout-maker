@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<workout_file>
+  <!--Experimental ZWO export; verify imported intervals and power in the target app.-->
+  <author>Workout Maker</author>
+  <name>4×8分</name>
+  <description>編集用の例です。科学的な最適性や個人への適合性を保証するものではありません。</description>
+  <sportType>bike</sportType>
+  <tags />
+  <workout>
+    <SteadyState Duration="600" Power="0.5" />
+    <SteadyState Duration="480" Power="1.05" />
+    <SteadyState Duration="180" Power="0.5" />
+    <SteadyState Duration="480" Power="1.05" />
+    <SteadyState Duration="180" Power="0.5" />
+    <SteadyState Duration="480" Power="1.05" />
+    <SteadyState Duration="180" Power="0.5" />
+    <SteadyState Duration="480" Power="1.05" />
+    <SteadyState Duration="300" Power="0.4" />
+  </workout>
+</workout_file>

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "name": "SST（2×15分）",
+  "ftp_watts": 250,
+  "intervals": [
+    {
+      "name": "ウォームアップ",
+      "duration_seconds": 600,
+      "target_percent": 50,
+      "kind": "warmup"
+    },
+    {
+      "name": "SST #1",
+      "duration_seconds": 900,
+      "target_percent": 90,
+      "kind": "work"
+    },
+    {
+      "name": "回復",
+      "duration_seconds": 300,
+      "target_percent": 50,
+      "kind": "recovery"
+    },
+    {
+      "name": "SST #2",
+      "duration_seconds": 900,
+      "target_percent": 90,
+      "kind": "work"
+    },
+    {
+      "name": "クールダウン",
+      "duration_seconds": 300,
+      "target_percent": 40,
+      "kind": "cooldown"
+    }
+  ],
+  "description": "編集用の例です。科学的な最適性や個人への適合性を保証するものではありません。"
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "name": "4×8分",
+  "ftp_watts": 250,
+  "intervals": [
+    {
+      "name": "ウォームアップ",
+      "duration_seconds": 600,
+      "target_percent": 50,
+      "kind": "warmup"
+    },
+    {
+      "name": "8分 #1",
+      "duration_seconds": 480,
+      "target_percent": 105,
+      "kind": "work"
+    },
+    {
+      "name": "回復",
+      "duration_seconds": 180,
+      "target_percent": 50,
+      "kind": "recovery"
+    },
+    {
+      "name": "8分 #2",
+      "duration_seconds": 480,
+      "target_percent": 105,
+      "kind": "work"
+    },
+    {
+      "name": "回復",
+      "duration_seconds": 180,
+      "target_percent": 50,
+      "kind": "recovery"
+    },
+    {
+      "name": "8分 #3",
+      "duration_seconds": 480,
+      "target_percent": 105,
+      "kind": "work"
+    },
+    {
+      "name": "回復",
+      "duration_seconds": 180,
+      "target_percent": 50,
+      "kind": "recovery"
+    },
+    {
+      "name": "8分 #4",
+      "duration_seconds": 480,
+      "target_percent": 105,
+      "kind": "work"
+    },
+    {
+      "name": "クールダウン",
+      "duration_seconds": 300,
+      "target_percent": 40,
+      "kind": "cooldown"
+    }
+  ],
+  "description": "編集用の例です。科学的な最適性や個人への適合性を保証するものではありません。"
+}

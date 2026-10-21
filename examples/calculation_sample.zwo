@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<workout_file>
+  <!--Experimental ZWO export; verify imported intervals and power in the target app.-->
+  <author>Workout Maker</author>
+  <name>Calculation sample</name>
+  <description>Synthetic data for calculation tests</description>
+  <sportType>bike</sportType>
+  <tags />
+  <workout>
+    <SteadyState Duration="300" Power="0.5" />
+    <SteadyState Duration="120" Power="1" />
+    <SteadyState Duration="180" Power="0.5" />
+  </workout>
+</workout_file>

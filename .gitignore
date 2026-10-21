@@ -1,0 +1,49 @@
+# Local Python environment and build products
+.venv/
+.tmp/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Secrets and local configuration (examples may be explicitly added)
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+secrets.toml
+secrets.*.toml
+credentials*.json
+token*.json
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+
+# Personal workouts, generated files, logs and local databases
+user_data/
+downloads/
+artifacts/
+backups/
+/workout.json
+/workout.zwo
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Local editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini

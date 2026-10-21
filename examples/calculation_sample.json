@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "name": "Calculation sample",
+  "ftp_watts": 250,
+  "intervals": [
+    {
+      "name": "A",
+      "duration_seconds": 300,
+      "target_percent": 50,
+      "kind": "warmup"
+    },
+    {
+      "name": "B",
+      "duration_seconds": 120,
+      "target_percent": 100,
+      "kind": "work"
+    },
+    {
+      "name": "C",
+      "duration_seconds": 180,
+      "target_percent": 50,
+      "kind": "recovery"
+    }
+  ],
+  "description": "Synthetic data for calculation tests"
+}
